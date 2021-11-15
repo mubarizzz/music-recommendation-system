@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.main {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.contianer {
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+img {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.box {
+  background-color: #190d3f;
+  color: white;
+}
+
+.box2 {
+  background-color: #190d3f;
+  color: white;
+  overflow-y: scroll; height:20rem;
+  padding: 1rem;
+}
+
+button {
+  color: white;
+  background-color: #822a84;
+}
+button:hover{
+  cursor: pointer;
+}
+
+.sirib {
+  background-color: #190d3f;
+  margin-right: 2rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 2rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #410742;
+  border-radius: 2rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #822a84;
+  border-radius: 2rem;
+  color: #832a8496;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5e185f;
+  border-radius: 2rem;
+}
